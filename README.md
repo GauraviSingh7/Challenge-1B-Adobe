@@ -133,7 +133,7 @@ docker run --rm \
 Output will be written to:
 
 ```
-challenge_1b/challenge_1b/output/challenge1b_output.json
+/output/challenge1b_output.json
 ```
 
 ---
@@ -145,11 +145,6 @@ challenge_1b/challenge_1b/output/challenge1b_output.json
 - All processing is local and private.
 - In case of long startup, the container waits and retries connecting to Ollama.
 
----
 
-## Author
 
-Gauravi Singh
-
-For issues, contact: [gauravisingh@example.com](mailto\:gauravisingh@example.com) (replace with actual email if needed)
 
