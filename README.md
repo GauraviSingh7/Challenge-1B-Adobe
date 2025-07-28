@@ -89,7 +89,7 @@ A JSON file (`challenge1b_output.json`) saved inside the `output/` folder:
 
 ### Build the Docker Image
 
-Run this inside the `challenge_1b/challenge_1b/` folder:
+Run this inside the folder that contains the Dockerfile:
 
 ```bash
 docker build --platform=linux/amd64 -t persona-doc-analyzer .
