@@ -1,7 +1,7 @@
 # Persona-Driven Document Intelligence Approach
 
 ## Overview
-This solution uses Ollama (llama3.2:1b model) to provide intelligent, context-aware document analysis completely offline. The system extracts relevant sections from multiple PDFs based on specific personas and their job requirements.
+This solution uses Ollama (tinyllama model) to provide intelligent, context-aware document analysis completely offline. The system extracts relevant sections from multiple PDFs based on specific personas and their job requirements.
 
 ## Architecture
 
@@ -11,7 +11,7 @@ This solution uses Ollama (llama3.2:1b model) to provide intelligent, context-aw
 - **Content Extraction**: Maintains page-level mapping and hierarchical structure
 
 ### 2. Ollama-Based Intelligence
-- **Model**: llama3.2:1b (~1GB) for optimal size/performance balance
+- **Model**: tinyllama for optimal size/performance balance
 - **Offline Operation**: Model downloaded during Docker build, no runtime internet access
 - **Context-Aware Prompting**: Tailored prompts based on persona role and job requirements
 
